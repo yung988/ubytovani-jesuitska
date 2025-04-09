@@ -10,9 +10,17 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Monalia Luxury Resort",
-  description: "Luxusní ubytování v srdci přírody, kde se elegance setkává s klidem.",
-    generator: 'v0.dev'
+  title: "Pension Jesuitská Znojmo",
+  description: "Luxusní ubytování v srdci Znojma, kde se elegance setkává s klidem. Pension Jesuitská nabízí komfortní pobyt v historickém centru města.",
+  keywords: "pension Znojmo, Jesuitská, ubytování Znojmo, luxusní pension, Znojmo centrum",
+  authors: [{ name: "Pension Jesuitská" }],
+  openGraph: {
+    title: "Pension Jesuitská Znojmo",
+    description: "Luxusní ubytování v historickém centru Znojma",
+    siteName: "Pension Jesuitská Znojmo",
+    locale: "cs_CZ",
+    type: "website",
+  },
 }
 
 export default function RootLayout({
